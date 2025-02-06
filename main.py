@@ -71,7 +71,7 @@ def main():
     video_url = st.text_input("Enter YouTube Video URL:", "")
 
     # User customization options
-    max_summary_length = st.slider("Max Summary Length:", 1000, 20000, 50000)
+    max_summary_length = st.slider("Max Summary Length:", 600,1000,1300,1800,2300,2800,3500,4000,4500,5000,10000)
 
     if st.button("Summarize"):
         try:
